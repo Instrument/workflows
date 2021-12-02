@@ -1,0 +1,7 @@
+- name: GitHub Organization User Activity Report
+  id: github_user_analysis
+  uses: peter-murray/inactive-users-action@v1
+  with: 
+    token: ${{secrets.USER_ACCESS_HISTORY}}
+    organization: Instrument
+    activity_days: 90
