@@ -1,4 +1,5 @@
   name: GitHub Organization User Activity Report
+  on: [push]
   id: github_user_analysis
   uses: peter-murray/inactive-users-action@v1
   with: 
