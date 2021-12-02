@@ -12,7 +12,6 @@
             token: ${{ secrets.USER_ACCESS_HISTORY }}
             organization: Instrument
             activity_days: 90
-      steps:
         - name: Save User Activity Report
           uses: actions/upload-artifact@v2
           with:
